@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Comic Sans MS', sans-serif;
+
+}
+
+body{
+    background-image: url(Bg-img.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+header .logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    filter: drop-shadow( 0 0 12px black);
+}
+
+.navbar{
+    margin-right:350px;
+}
+
+header .navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar ul li a{
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar ul li a:hover{
+    text-decoration: underline;
+    color:yellowgreen;
+}
+
+
+.icon{
+    border: 2px solid ghostwhite;
+    background-color:white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:  0 22px 30px yellowgreen;
+}
+
+.div{
+    display: flex;
+    align-items: center;
+}
+
+.div .sanjay{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #000;
+    font-size:15px;
+    font-weight: bold;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+::placeholder{
+    color: #000;
+}
+
+
+/* Hero Style */
+
+
+.hero{
+    width:40%;
+    margin-top:90px;
+    margin-left:50px;
+}
+.hero h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hero p{
+    color:black;
+    font-size:15px;
+    font-weight: bold;
+}
+
+.hero .button{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top:12px;
+}
+
+.btn{
+    width: 160px;
+    padding: 10px;
+    border: none;
+    outline:none;
+    background-color:rgb(94, 138, 6);
+    font-size: 19px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 22px 30px blue;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    scale: 1.1;
+    box-shadow: 0 22px 30px white;
+}
